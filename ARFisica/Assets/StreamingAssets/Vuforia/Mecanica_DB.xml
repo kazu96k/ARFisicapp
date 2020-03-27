@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="centro-de-masas" size="1.000000 0.690037" />
+    <ImageTarget name="Equilibrio_De_fuerzas_coplanares" size="1.000000 0.773639" />
+    <ImageTarget name="Trabajo_Energia_Potencia" size="1.000000 0.665185" />
+    <ImageTarget name="fuerza_de_rozamiento" size="1.000000 0.665185" />
+    <ImageTarget name="3ra_ley_de_Newton" size="1.000000 0.665185" />
+    <ImageTarget name="2da_ley_de_newton" size="1.000000 0.661258" />
+    <ImageTarget name="1ra-ley-de-newton" size="1.000000 0.761745" />
+    <ImageTarget name="tiro_oblicuo" size="1.000000 0.490769" />
+    <ImageTarget name="caida_libre" size="1.000000 0.777244" />
+    <ImageTarget name="cinematica" size="1.000000 0.329861" />
+  </Tracking>
+</QCARConfig>
