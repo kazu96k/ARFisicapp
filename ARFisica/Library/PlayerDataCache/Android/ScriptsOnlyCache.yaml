@@ -17,8 +17,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -737,7 +739,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: fdff800ed7fee9c23d88a6c3212dda70
+      Hash: ca9cd5f7446029ccb85af0d900ccb26b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIScriptsTiroOb
@@ -1295,7 +1297,7 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: e2f6fa5ac0fe9d741c848dfa5597691d
+      Hash: dbfd034efbc7c145ede1d6fc11031b8a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIScripts5
@@ -1625,7 +1627,7 @@ ScriptsOnlyBuild:
     className: WireframeTrackableEventHandler
   - hash:
       serializedVersion: 2
-      Hash: d2783d1eca7d9d07d4cf07eb2a81e67c
+      Hash: c6ee8078964280e25ca6feba78098904
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIScripts4

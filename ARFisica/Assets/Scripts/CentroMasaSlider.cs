@@ -70,8 +70,11 @@ public class CentroMasaSlider : MonoBehaviour
                 obje16.GetComponent<Renderer>().material = colorB;
                 obje17.GetComponent<Renderer>().material = colorB;
                 obje18.GetComponent<Renderer>().material = colorB;
-                
-                i = 2;
+                masa1.color = Color.white;
+                masa2.color = Color.white;
+                masa3.color = Color.white;
+                masacm.color = Color.white;
+            i = 2;
             }
 
             else if (i == 2)
@@ -97,8 +100,11 @@ public class CentroMasaSlider : MonoBehaviour
                 obje18.GetComponent<Renderer>().material = colorN;
                 obje19.GetComponent<Renderer>().material = colorN;
                 obje20.GetComponent<Renderer>().material = colorN;
-               
-                i = 3;
+            masa1.color = Color.black;
+            masa2.color = Color.black;
+            masa3.color = Color.black;
+            masacm.color = Color.black;
+            i = 3;
             }
             else if (i == 3)
             {
@@ -124,8 +130,12 @@ public class CentroMasaSlider : MonoBehaviour
                 obje18.GetComponent<Renderer>().material = colorV;
                 obje19.GetComponent<Renderer>().material = colorV;
                 obje20.GetComponent<Renderer>().material = colorV;
-                            
-            }
+            masa1.color = Color.green;
+            masa2.color = Color.green;
+            masa3.color = Color.green;
+            masacm.color = Color.green;
+
+        }
             else
             {
                 obje0.GetComponent<Renderer>().material = colorG;
@@ -149,8 +159,13 @@ public class CentroMasaSlider : MonoBehaviour
                 obje18.GetComponent<Renderer>().material = colorG;
                 obje19.GetComponent<Renderer>().material = colorG;
                 obje20.GetComponent<Renderer>().material = colorG;
-                
-                i = 1;
+
+            masa1.color = Color.blue;
+            masa2.color = Color.blue;
+            masa3.color = Color.blue;
+            masacm.color = Color.blue;
+
+            i = 1;
             }
        
     }

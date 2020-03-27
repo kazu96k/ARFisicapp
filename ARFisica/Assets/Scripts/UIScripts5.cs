@@ -13,8 +13,8 @@ public class UIScripts5 : MonoBehaviour
 
     //color
     public Material colorB, colorN, colorG, colorV;
-    public GameObject obj0, obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8,obj9, obj10, obj11, obj12, obj13, obj14, obj15, obj16, obj17, obj18, obj19, obj20, obj21, obj22;
-    public GameObject obje0, obje1, obje2, obje3, obje4, obje5, obje6, obje7, obje8,obje9, obje10, obje11, obje12, obje13, obje14, obje15, obje16, obje17, obje18, obje19, obje20, obje21, obje22, obj23;
+    public GameObject obj0, obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8,obj9, obj10, obj11, obj12;
+    public GameObject obje13, obje14, obje15, obje16, obje17, obje18, obje19, obje20;
     int i;
     // Start is called before the first frame update
 
@@ -109,17 +109,6 @@ public class UIScripts5 : MonoBehaviour
                 obj10.GetComponent<Renderer>().material = colorB;
                 obj11.GetComponent<Renderer>().material = colorB;
                 obj12.GetComponent<Renderer>().material = colorB;
-                obj13.GetComponent<Renderer>().material = colorB;
-                obj14.GetComponent<Renderer>().material = colorB;
-                obj19.GetComponent<Renderer>().material = colorB;
-                obj15.GetComponent<Renderer>().material = colorB;
-                obj16.GetComponent<Renderer>().material = colorB;
-                obj17.GetComponent<Renderer>().material = colorB;
-                obj18.GetComponent<Renderer>().material = colorB;
-                obj19.GetComponent<Renderer>().material = colorB;
-                obj20.GetComponent<Renderer>().material = colorB;
-                obj21.GetComponent<Renderer>().material = colorB;
-                obj22.GetComponent<Renderer>().material = colorB;
                 i = 2;
             }
 
@@ -138,17 +127,6 @@ public class UIScripts5 : MonoBehaviour
                 obj10.GetComponent<Renderer>().material = colorN;
                 obj11.GetComponent<Renderer>().material = colorN;
                 obj12.GetComponent<Renderer>().material = colorN;
-                obj13.GetComponent<Renderer>().material = colorN;
-                obj14.GetComponent<Renderer>().material = colorN;
-                obj19.GetComponent<Renderer>().material = colorN;
-                obj15.GetComponent<Renderer>().material = colorN;
-                obj16.GetComponent<Renderer>().material = colorN;
-                obj17.GetComponent<Renderer>().material = colorN;
-                obj18.GetComponent<Renderer>().material = colorN;
-                obj19.GetComponent<Renderer>().material = colorN;
-                obj20.GetComponent<Renderer>().material = colorN;
-                obj21.GetComponent<Renderer>().material = colorN;
-                obj22.GetComponent<Renderer>().material = colorN;
                 i = 3;
             }
             else if (i == 3) {
@@ -166,19 +144,7 @@ public class UIScripts5 : MonoBehaviour
                 obj10.GetComponent<Renderer>().material = colorV;
                 obj11.GetComponent<Renderer>().material = colorV;
                 obj12.GetComponent<Renderer>().material = colorV;
-                obj13.GetComponent<Renderer>().material = colorV;
-                obj14.GetComponent<Renderer>().material = colorV;
-                obj15.GetComponent<Renderer>().material = colorV;
-                obj16.GetComponent<Renderer>().material = colorV;
-                obj17.GetComponent<Renderer>().material = colorV;
-                obj18.GetComponent<Renderer>().material = colorV;
-                obj19.GetComponent<Renderer>().material = colorV;
-                obj21.GetComponent<Renderer>().material = colorV;
-                obj22.GetComponent<Renderer>().material = colorV;
-
-
-
-
+               
             }
             else
             {
@@ -195,64 +161,27 @@ public class UIScripts5 : MonoBehaviour
                 obj10.GetComponent<Renderer>().material = colorG;
                 obj11.GetComponent<Renderer>().material = colorG;
                 obj12.GetComponent<Renderer>().material = colorG;
-                obj13.GetComponent<Renderer>().material = colorG;
-                obj14.GetComponent<Renderer>().material = colorG;
-                obj15.GetComponent<Renderer>().material = colorG;
-                obj16.GetComponent<Renderer>().material = colorG;
-                obj17.GetComponent<Renderer>().material = colorG;
-                obj18.GetComponent<Renderer>().material = colorG;
-                obj19.GetComponent<Renderer>().material = colorG;
-                obj20.GetComponent<Renderer>().material = colorG;
-                obj21.GetComponent<Renderer>().material = colorG;
-                obj22.GetComponent<Renderer>().material = colorG;
-                i = 1;
+                 i = 1;
             }
 
         }
         else {
             if (i == 1)
             {
-                obje0.GetComponent<Renderer>().material = colorB;
-                obje1.GetComponent<Renderer>().material = colorB;
-                obje2.GetComponent<Renderer>().material = colorB;
-                obje3.GetComponent<Renderer>().material = colorB;
-                obje4.GetComponent<Renderer>().material = colorB;
-                obje9.GetComponent<Renderer>().material = colorB;
-                obje5.GetComponent<Renderer>().material = colorB;
-                obje6.GetComponent<Renderer>().material = colorB;
-                obje7.GetComponent<Renderer>().material = colorB;
-                obje8.GetComponent<Renderer>().material = colorB;
-                obje10.GetComponent<Renderer>().material = colorB;
-                obje11.GetComponent<Renderer>().material = colorB;
-                obje12.GetComponent<Renderer>().material = colorB;
                 obje13.GetComponent<Renderer>().material = colorB;
                 obje14.GetComponent<Renderer>().material = colorB;
-                obje19.GetComponent<Renderer>().material = colorB;
                 obje15.GetComponent<Renderer>().material = colorB;
                 obje16.GetComponent<Renderer>().material = colorB;
                 obje17.GetComponent<Renderer>().material = colorB;
                 obje18.GetComponent<Renderer>().material = colorB;
+                obje19.GetComponent<Renderer>().material = colorB;
                 obje20.GetComponent<Renderer>().material = colorB;
-                obje21.GetComponent<Renderer>().material = colorB;
-                obje22.GetComponent<Renderer>().material = colorB;
                 i = 2;
             }
 
             else if (i == 2)
             {
-                obje0.GetComponent<Renderer>().material = colorN;
-                obje1.GetComponent<Renderer>().material = colorN;
-                obje2.GetComponent<Renderer>().material = colorN;
-                obje3.GetComponent<Renderer>().material = colorN;
-                obje4.GetComponent<Renderer>().material = colorN;
-                obje5.GetComponent<Renderer>().material = colorN;
-                obje6.GetComponent<Renderer>().material = colorN;
-                obje7.GetComponent<Renderer>().material = colorN;
-                obje8.GetComponent<Renderer>().material = colorN;
-                obje9.GetComponent<Renderer>().material = colorN;
-                obje10.GetComponent<Renderer>().material = colorN;
-                obje11.GetComponent<Renderer>().material = colorN;
-                obje12.GetComponent<Renderer>().material = colorN;
+             
                 obje13.GetComponent<Renderer>().material = colorN;
                 obje14.GetComponent<Renderer>().material = colorN;
                 obje15.GetComponent<Renderer>().material = colorN;
@@ -261,26 +190,12 @@ public class UIScripts5 : MonoBehaviour
                 obje18.GetComponent<Renderer>().material = colorN;
                 obje19.GetComponent<Renderer>().material = colorN;
                 obje20.GetComponent<Renderer>().material = colorN;
-                obje21.GetComponent<Renderer>().material = colorN;
-                obje22.GetComponent<Renderer>().material = colorN;
                 i = 3;
             }
             else if (i == 3)
             {
-                i = 4;
-                obje0.GetComponent<Renderer>().material = colorV;
-                obje1.GetComponent<Renderer>().material = colorV;
-                obje2.GetComponent<Renderer>().material = colorV;
-                obje3.GetComponent<Renderer>().material = colorV;
-                obje4.GetComponent<Renderer>().material = colorV;
-                obje5.GetComponent<Renderer>().material = colorV;
-                obje6.GetComponent<Renderer>().material = colorV;
-                obje7.GetComponent<Renderer>().material = colorV;
-                obje8.GetComponent<Renderer>().material = colorV;
-                obje9.GetComponent<Renderer>().material = colorV;
-                obje10.GetComponent<Renderer>().material = colorV;
-                obje11.GetComponent<Renderer>().material = colorV;
-                obje12.GetComponent<Renderer>().material = colorV;
+           
+                
                 obje13.GetComponent<Renderer>().material = colorV;
                 obje14.GetComponent<Renderer>().material = colorV;
                 obje15.GetComponent<Renderer>().material = colorV;
@@ -289,24 +204,11 @@ public class UIScripts5 : MonoBehaviour
                 obje18.GetComponent<Renderer>().material = colorV;
                 obje19.GetComponent<Renderer>().material = colorV;
                 obje20.GetComponent<Renderer>().material = colorV;
-                obje21.GetComponent<Renderer>().material = colorV;
-                obje22.GetComponent<Renderer>().material = colorV;
+                i = 4;
             }
             else
             {
-                obje0.GetComponent<Renderer>().material = colorG;
-                obje1.GetComponent<Renderer>().material = colorG;
-                obje2.GetComponent<Renderer>().material = colorG;
-                obje3.GetComponent<Renderer>().material = colorG;
-                obje4.GetComponent<Renderer>().material = colorG;
-                obje5.GetComponent<Renderer>().material = colorG;
-                obje6.GetComponent<Renderer>().material = colorG;
-                obje7.GetComponent<Renderer>().material = colorG;
-                obje8.GetComponent<Renderer>().material = colorG;
-                obje9.GetComponent<Renderer>().material = colorG;
-                obje10.GetComponent<Renderer>().material = colorG;
-                obje11.GetComponent<Renderer>().material = colorG;
-                obje12.GetComponent<Renderer>().material = colorG;
+              
                 obje13.GetComponent<Renderer>().material = colorG;
                 obje14.GetComponent<Renderer>().material = colorG;
                 obje15.GetComponent<Renderer>().material = colorG;
@@ -315,8 +217,6 @@ public class UIScripts5 : MonoBehaviour
                 obje18.GetComponent<Renderer>().material = colorG;
                 obje19.GetComponent<Renderer>().material = colorG;
                 obje20.GetComponent<Renderer>().material = colorG;
-                obje21.GetComponent<Renderer>().material = colorG;
-                obje22.GetComponent<Renderer>().material = colorG;
                 i = 1;
             }
 
